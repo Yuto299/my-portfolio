@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-container {
+  background-color: #c0c9ee;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-text {
+  color: #898ac4;
+}
+
+.web-developer {
+  text-decoration: underline;
+}
