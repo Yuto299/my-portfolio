@@ -54,7 +54,7 @@ body {
 }
 
 .middle-container {
-  margin-top: 100px;
+  margin: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,14 +109,84 @@ hr {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   grid-template-rows: repeat(1, 1fr);
-  margin: 70px auto 0 auto;
+  margin: 50px auto 0 auto;
   text-align: left;
   row-gap: 2rem;
-  width: 50%;
+  width: 45%;
 }
 
 .pc-img {
   width: 73%;
   height: auto;
   margin-top: 0;
+}
+
+.design-img {
+  width: 73%;
+  height: auto;
+  margin-top: 45px;
+}
+
+.contact-title {
+  font-size: 2.5em;
+  color: #6668ba;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-message {
+  width: 40%;
+  text-align: center;
+}
+
+.btn {
+  background: #6668ba;
+  background-image: -webkit-linear-gradient(top, #6668ba, #11999e);
+  background-image: -moz-linear-gradient(top, #6668ba, #11999e);
+  background-image: -ms-linear-gradient(top, #6668ba, #11999e);
+  background-image: -o-linear-gradient(top, #6668ba, #11999e);
+  background-image: linear-gradient(to bottom, #6668ba, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.bottom-container {
+  background-color: #6668ba;
+  text-align: center;
+  padding: 45px 0 20px;
+}
+
+.text {
+  color: #4b3f72;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 20px;
+}
+
+.text:hover {
+  color: #c0c9ee;
+}
+
+.copyright {
+  color: #c0c9ee;
+  font-size: 0.75rem;
+  padding: 25px 0;
+  margin-top: 20px;
 }
