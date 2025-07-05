@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: aliceblue;
 }
 
 .top-container {
@@ -27,7 +28,7 @@ h1 {
   font-family: "Sacramento", cursive;
 }
 
-h2 {
+.subtitle {
   font-size: 2em;
   margin-bottom: 50px;
   font-weight: normal;
@@ -46,5 +47,35 @@ h2 {
 
 .middle-container {
   margin-top: 100px;
-  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myFace {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hello {
+  font-size: 2.5em;
+  color: #6668ba;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.intro {
+  text-align: center;
+  font-weight: normal;
+  line-height: 2;
 }
