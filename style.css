@@ -13,12 +13,17 @@ body {
   align-items: center;
 }
 
-.top-text {
-  color: #4b3f72;
+.fireworks {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  width: 280px;
+  height: auto;
 }
 
 h1 {
   font-size: 5.8em;
+  color: #4b3f72;
   font-family: "Sacramento", cursive;
 }
 
@@ -27,13 +32,14 @@ h2 {
   margin-bottom: 50px;
   font-weight: normal;
   text-align: center;
+  color: #6668ba;
 }
 
 .web-developer {
   text-decoration: underline;
 }
 
-img {
+.waves {
   width: 300px;
   height: auto;
 }
