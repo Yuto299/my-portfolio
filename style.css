@@ -6,13 +6,34 @@ body {
 .top-container {
   background-color: #c0c9ee;
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-text {
-  color: #898ac4;
+  color: #4b3f72;
+}
+
+h1 {
+  font-size: 5.8em;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 50px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .web-developer {
   text-decoration: underline;
+}
+
+img {
+  width: 300px;
+  height: auto;
 }
