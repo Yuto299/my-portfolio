@@ -15,9 +15,9 @@ body {
 
 .fireworks {
   position: absolute;
-  right: 50px;
-  top: 10px;
-  width: 280px;
+  right: 140px;
+  top: 5px;
+  width: 450px;
   height: auto;
 }
 
@@ -42,4 +42,9 @@ h2 {
 .waves {
   width: 300px;
   height: auto;
+}
+
+.middle-container {
+  margin-top: 100px;
+  background-color: aliceblue;
 }
