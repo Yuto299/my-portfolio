@@ -22,7 +22,15 @@ body {
   height: auto;
 }
 
-h1 {
+.tyochin {
+  position: absolute;
+  left: 210px;
+  top: 25px;
+  width: 400px;
+  height: auto;
+}
+
+.name {
   font-size: 5.8em;
   color: #4b3f72;
   font-family: "Sacramento", cursive;
@@ -69,7 +77,7 @@ h1 {
   font-size: 2.5em;
   color: #6668ba;
   font-weight: normal;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 5px;
 }
@@ -78,4 +86,37 @@ h1 {
   text-align: center;
   font-weight: normal;
   line-height: 2;
+}
+
+hr {
+  border: dotted #6668ba 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skill-title {
+  font-size: 2.5em;
+  color: #6668ba;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.skill-detail {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  margin: 70px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+  width: 50%;
+}
+
+.pc-img {
+  width: 73%;
+  height: auto;
+  margin-top: 0;
 }
